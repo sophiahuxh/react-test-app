@@ -11,7 +11,7 @@ deploy:
   local_dir: dpl_cd_upload
   skip_cleanup: true
   on: &2
-    repo: github.com/react-test-app
+    repo: sophiahuxh/react-test-app
   bucket: tests3buckets3
   region: us-west-1
 - provider: codedeploy
